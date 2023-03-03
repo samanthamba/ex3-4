@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 3 & 4</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style>
+        form {
+			margin: 0 auto;
+			width: 50%;
+			padding: 20px;
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		input[type=text], input[type=email], input[type=password] {
+			width: 100%;
+			padding: 10px;
+			margin: 5px 0 15px 0;
+			border: none;
+			border-radius: 5px;
+			background-color: #fff;
+			box-shadow: 1px 1px 1px #999;
+		}
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link">Homepage</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+<table class="table table-hover">
+	<tr>
+	<td><h3 style="text-transform: uppercase;">Top 4 Athletes</h3></td>
+	<td><h3>Description</h3></td>
+	<td><h3>Net Worth</h3></td>
+	</tr>
+	<tr class="table-secondary">
+		<td><img src="https://s.yimg.com/ny/api/res/1.2/FnArHccOdOdLtU_0Nb146g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://s.yimg.com/os/creatr-uploaded-images/2023-01/31467590-9b7a-11ed-babf-c72a3b6db664" height="250"></td>
+		<td><b>LEBRON JAMES</b><br>American basketball player with the Los Angeles Lakers. With his unique combination of size, athleticism and court vision, he became a four-time NBA MVP.</td>
+		<td>1 billion USD</td>
+	</tr>
+	<tr class="table-danger">
+			<td><img src="http://assets.rappler.com/EE30BD8CCA5C492E8C56794E978ADD7C/img/7CD0439662A94A4E838E9196F36E7D1D/manny-pacquiao-flex-jan-13-2019.jpg" height="250" width="445"></td>
+			<td><b>MANNY PACQUAIO</b><br> Humble demeanor and unforgiving fists have transformed him into a boxing legend, international superstar and Philippines Senator.</td>
+			<td>220 Million USD</td>
+	</tr>
+	<tr class="table-warning">
+			<td><img src="https://static.foxnews.com/foxnews.com/content/uploads/2022/06/Stephen-Curry10.jpg" height="250"></td>
+			<td><b>STEPHEN CURRY<br></b> American professional basketball player and regarded as the best shooter in NBA history. His ability to routinely make extremely long-range 3-point shots has been credited with revolutionizing the sport.</td>
+			<td>160 million USD</td>
+	</tr>
+	<tr class="table-primary">
+			<td><img src="https://e0.365dm.com/22/12/1600x900/skysports-lionel-messi-argentina_5995834.jpg?20221214000208" height="250"></td>
+			<td><b>LIONEL MESSI</b><br>Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team.</td>
+			<td>620 million USD</td>
+	</tr>
+</table>
+<br>
+<br>
+
+	<form>
+		<h2>Sign Up</h2>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email">
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password">
+
+		<label for="confirm-password">Confirm Password:</label>
+		<input type="password" id="confirm-password" name="confirm-password">
+
+		<input type="submit" value="Submit">
+	</form>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
